@@ -1860,15 +1860,30 @@ img.mfp-img {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .footer {
   background: #222;
-  padding-top: 438px;
+  padding-top: 45px;
   width: auto;
+}
+
+.a-banner{
+  overflow:auto;align-content: center;
+}
+.a-footer .footer-info, .a-footer .subscribe-email{
+  color: black !important;
+}
+#mc_embed_signup label{
+  color: white !important;
 }
 #mc_embed_signup{
   background: #35373e !important;
+      padding: 30px 0 35px 0;
 }
 
 #mc_embed_signup form{
-      padding: 10px 0px 10px 88px;
+          padding: 50px 0 50px 0;;
+}
+
+.clear{
+  overflow: visible !important;
 }
 @media screen and (max-width: 768px) {
   .footer {
@@ -2174,7 +2189,7 @@ img.footer-logo {
   .a-banner {
     height: auto;
     min-height: 100%;
-    padding: 120px 0 70px;
+    padding: 0px 0 0px;
   }
 }
 
@@ -2198,9 +2213,8 @@ img.footer-logo {
     -webkit-transform: translate(0);
         -ms-transform: translate(0);
             transform: translate(0);
-    position: relative;
     left: 0;
-    top: 0;
+    right: 0;
   }
 }
 .banner_description h1 {
@@ -3712,7 +3726,7 @@ video.bgvid {
 }
 
 .a-footer {
-  background: #35373e;
+  background: #fff;
 }
 .a-footer .footer-info, .a-footer .subscribe-email {
   color: #cfd1db;
